@@ -1,3 +1,8 @@
+body {
+  background: url(../images/indaris_parchment.jpg);
+  background-size: 100%;
+}
+
 .etion .container {
   background: grey;
 }
@@ -6,4 +11,29 @@
   text-align: center;
   margin-top: 10px;
   padding-bottom: 30px;
+}
+
+section#block-tettn {
+  width: 35%;
+  float: right;
+  text-align: center;
+  padding: 15px 20px 30px 20px;
+
+  border: 10px solid transparent;
+  -webkit-border-image: url(../images/kaderbase.png) 30 fill !important; /* Safari 3.1-5 */    
+  -o-border-image: url(../images/kaderbase.png) 30 fill !important; /* Opera 11-12.1 */
+  border-image: url(../images/kaderbase.png) 30 fill !important;   
+}
+
+.kader {
+  border: 10px solid transparent;
+  -webkit-border-image: url(../images/kaderbase.png) 30 fill !important; /* Safari 3.1-5 */    
+  -o-border-image: url(../images/kaderbase.png) 30 fill !important; /* Opera 11-12.1 */
+  border-image: url(../images/kaderbase.png) 30 fill !important;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
